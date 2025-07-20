@@ -98,7 +98,16 @@ p {
   border-radius: 0.5rem;
   /* margin-bottom: 2rem; */
   font-size: 1rem;
+  cursor: pointer; /* Good for interactivity */
+  transition: background-color 0.3s ease;
 }
+
+.add-cart:hover,
+.add-cart:focus {
+  background-color: var(--green-700); /* Darker green on hover/focus */
+  outline: none; /* Optional: remove default focus outline */
+}
+
 
 .cart-icon {
   width: 1rem;
